@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <section>
+            <h1>Tic Tak Toc Game</h1>
+            <div class="container">
+                <input onclick="cellClicked(1), gameStatusCheck()" id="1" class="cell" />
+                <input onclick="cellClicked(2), gameStatusCheck()" id="2" class="cell" />
+                <input onclick="cellClicked(3), gameStatusCheck()" id="3" class="cell" />
+                <input onclick="cellClicked(4), gameStatusCheck()" id="4" class="cell" />
+                <input onclick="cellClicked(5), gameStatusCheck()" id="5" class="cell" />
+                <input onclick="cellClicked(6), gameStatusCheck()" id="6" class="cell" />
+                <input onclick="cellClicked(7), gameStatusCheck()" id="7" class="cell" />
+                <input onclick="cellClicked(8), gameStatusCheck()" id="8" class="cell" />
+                <input onclick="cellClicked(9), gameStatusCheck()" id="9" class="cell" />
+            </div>
+            <div id="status">Player X's turn</div>
+            <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+        </section>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
